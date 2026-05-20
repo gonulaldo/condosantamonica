@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.static('public'));
 
-const CONDO_ADDRESS = '1440 23rd Street #123, Santa Monica, CA 90404';
+const CONDO_ADDRESS = '1440 23rd Street, Santa Monica, CA 90404';
 const CONTACT_EMAIL = 'info@liefproductions.com';
 
 const layout = (title, body) => `
