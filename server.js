@@ -60,7 +60,6 @@ const layout = (title, body) => `
   <div class="highlights">
     <span>Beautifully Maintained Courtyards</span>
     <span>Spa-Inspired Primary Suite</span>
-    <span>Radiant Heated Flooring</span>
   </div>
   <nav>
     <a href="/">Home</a>
@@ -96,7 +95,7 @@ app.get('/', (req, res) => {
       <h2>About this home</h2>
       <p>This beautifully appointed 2-bedroom, 2-bathroom first-floor condo at 1440 23rd Street offers the perfect blend of comfort, style, and location in one of Los Angeles's most sought-after neighborhoods. Available fully furnished and move-in ready.</p>
       <p>Inside, you'll find a beautifully appointed living area, a well-equipped kitchen with dishwasher, microwave, refrigerator, and stove, and an in-unit all-in-one washer/dryer for effortless living. Both bathrooms have been fully renovated to a high standard, with the spa-inspired primary suite featuring radiant heated flooring that brings a touch of luxury to every morning. Each room is equipped with its own mini-split air conditioning system for personalized, year-round comfort.</p>
-      <p>The 1440 23rd Street community offers resort-style amenities including a lounge area, a fitness/exercise room, gated security, and beautifully maintained courtyards. Two assigned, covered parking spaces are included.</p>
+      <p>The 1440 23rd Street community offers resort-style amenities including a lounge area, a fitness/exercise room, gated security, and beautifully maintained courtyards. Tandem parking for 2 cars is included.</p>
       <p>Location is everything here. You are just steps from Providence Saint John's Health Center, Universal Music Group, and The Water Garden Business District. The Metro Station is a short distance away, making commuting effortless. Venice Beach, Third Street Promenade, Santa Monica College, Topanga State Park, LAX, and freeway access are all within easy reach.</p>
       <p>This is an exceptional opportunity to live in a luxury Santa Monica condo at an incredible value. Association dues are included in the rent. Pets considered with restrictions.</p>
     </div>
@@ -106,12 +105,11 @@ app.get('/', (req, res) => {
         <li>2 bedrooms, 2 full bathrooms &mdash; 972 sqft, first floor</li>
         <li>Fully furnished and move-in ready</li>
         <li>Spa-inspired primary suite with radiant heated flooring</li>
-        <li>Tile flooring throughout</li>
+        <li>Tile flooring in primary bathroom</li>
         <li>Mini-split air conditioning in every room</li>
         <li>Central heating</li>
         <li>Kitchen with dishwasher, microwave, refrigerator, and stove</li>
         <li>In-unit all-in-one washer/dryer</li>
-        <li>Has view</li>
       </ul>
     </div>
     <div class="info">
@@ -121,7 +119,7 @@ app.get('/', (req, res) => {
         <li>Resident lounge area</li>
         <li>Fitness / exercise room</li>
         <li>Gated security</li>
-        <li>Two assigned, covered parking spaces</li>
+        <li>Tandem parking for 2 cars</li>
         <li>Association dues included in the rent</li>
         <li>Pets considered with restrictions</li>
         <li>Built in 1973</li>
