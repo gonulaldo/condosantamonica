@@ -54,7 +54,7 @@ const layout = (title, body) => `
 </head>
 <body>
   <header>
-    <h1>Furnished 2 Bedroom + 2 Bathroom Condo</h1>
+    <h1>Luxury Furnished 2 Bedroom + 2 Bathroom Condo</h1>
     <p>Available in Santa Monica</p>
   </header>
   <div class="highlights">
